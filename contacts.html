@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&family=Geist:wght@100..900&family=Lobster&family=Micro+5&family=Nanum+Gothic+Coding&family=Nanum+Myeongjo&family=Playwrite+GB+S:ital@0;1&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+    /* General link styles */
+a {
+    border: 2px solid transparent;  /* Start with a transparent border */
+    border-radius: 10px;  /* Rounded corners for the border */
+    padding: 12px 20px;  /* Add some padding for spacing around the text */
+    color: #7b2cbf;  /* Text color */
+    text-decoration: none;  /* Remove the default underline */
+    background-color: #221515;  /* Light background for the links */
+    font-size: 1rem;  /* Adjust the font size */
+    font-weight: bold;  /* Make the text bold */
+    display: inline-block;  /* Allow padding and margins around the links */
+    box-sizing: border-box;  /* Ensure the padding doesn't affect the box size */
+    transition: all 0.3s ease;  /* Smooth transition for hover effects */
+}
+
+/* On hover */
+a:hover {
+    color: white;  /* Change text color */
+    background-color: #7b2cbf;  /* Darker background color on hover */
+    border-color: #7b2cbf;  /* Change border color to match the background */
+    transform: scale(1.05);  /* Slightly scale the link on hover */
+}
+
+/* Adding focus effect for accessibility */
+a:focus {
+    outline: none;  /* Remove the default focus outline */
+    box-shadow: 0 0 10px rgba(123, 44, 191, 0.8);  /* Add a glowing effect on focus */
+}
+
+/* Add a subtle pulse animation on hover */
+a:hover {
+    animation: pulse 1s infinite;  /* Apply the pulse animation */
+}
+img {
+    display: block;
+    margin-left: 30%;
+    padding-left: 17px;
+    border-radius: 15px;
+    padding-top: 50px;
+
+}
+/* Pulse animation for anchor tags */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);  /* Slightly scale up */
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+/* Responsive design - Adjust link padding on smaller screens */
+@media (max-width: 600px) {
+    a {
+        padding: 8px 15px;  /* Adjust padding for smaller screens */
+    }
+}
+
+    </style>
+    <title>Contacts</title>
+</head>
+<body>
+    <div class="nav-bar">
+        <h1>Weathernime</h1>
+        <nav>
+            <a href="index.html">Home page</a>
+            <a href="learnmore.html">Learn more</a>
+        </nav>
+    </div>
+    <div class="card">
+        <div>
+            <h1>Weathernime</h1>
+            <div class="infocard">
+                <a href="mailto:jemmeralmoneda58@gmail.com">Email</a>
+                <a href="https://github.com/shiruri?tab=repositories">Github repo</a>
+                <img src="contacts.jpg">
+            </div>
+            
+                <p></p>
+            </div>
+        </div>
+</body>
+</html>
